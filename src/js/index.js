@@ -2,12 +2,9 @@ import '../scss/index.scss';
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import App from 'grommet/components/App';
-import Anchor from 'grommet/components/Anchor';
-import Header from 'grommet/components/Header';
-import Footer from 'grommet/components/Footer';
-import Title from 'grommet/components/Title';
+import { App, Anchor, Header, Footer, Title } from 'grommet';
 import TodoAppDashboard from './components/TodoAppDashboard';
+
 
 class Main extends Component {
   render () {

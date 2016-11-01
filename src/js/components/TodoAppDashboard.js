@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-import Box from 'grommet/components/Box';
-import Heading from 'grommet/components/Heading';
-import List from 'grommet/components/List';
-import ListItem from 'grommet/components/ListItem';
-import Meter from 'grommet/components/Meter';
-import Section from 'grommet/components/Section';
-import Value from 'grommet/components/Value';
+
+import { Box, Heading, List, ListItem, Meter, Section, Value } from 'grommet';
 import Status from 'grommet/components/icons/Status';
 
 function getLabel(label, count, colorIndex) {
